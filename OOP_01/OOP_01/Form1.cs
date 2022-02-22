@@ -81,6 +81,24 @@ namespace OOP_01
             
 
         }
+
+        class orman
+        {
+            private string tur;
+            public string Tur { get; set; }
+            public int Adet { get; set; }
+
+            public  string renk;//denemek için çevirdik
+                    
+            public  string Renk
+            {
+                get { return renk; }
+                set { renk = value; }
+            }
+
+
+
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
            /* Kisi ogrenci1 = new Kisi();
@@ -105,10 +123,20 @@ namespace OOP_01
             ekranaYaz(ogrenci10);
             buyukharfecevir(ogrenci10);
             ekranaYaz(ogrenci10);
-          //  MessageBox.Show(ogrenci10.adsoyad);
+            //  MessageBox.Show(ogrenci10.adsoyad);
+
+            orman akdeniz = new orman();
+            akdeniz.Tur = "palamut";
+            akdeniz.Adet = 20;
+            orman karadeniz = new orman();
+            karadeniz.Tur = "meşe";
+            karadeniz.Adet = 15;
+            MessageBox.Show(akdeniz.Tur.ToUpper() + " " + akdeniz.Adet + "," + karadeniz.Tur.ToLower() + " " + karadeniz.Adet);
+            karadeniz.Renk = "sari";
+            MessageBox.Show(karadeniz.renk);
+
 
         }
-
         void ekranaYaz(ogrenci e)
         {
 
@@ -119,6 +147,8 @@ namespace OOP_01
         {
             o.AdSoyad = o.AdSoyad.ToUpper();
         }
+
+
 
 
 

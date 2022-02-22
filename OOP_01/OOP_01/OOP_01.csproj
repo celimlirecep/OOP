@@ -52,10 +52,61 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs" />
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formozelders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formozelders.Designer.cs">
+      <DependentUpon>formozelders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myclasses.cs" />
+    <Compile Include="ozelders.cs" />
+    <Compile Include="polimorphism.cs" />
+    <Compile Include="polimorphism.Designer.cs">
+      <DependentUpon>polimorphism.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="pılimorphism2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pılimorphism2.Designer.cs">
+      <DependentUpon>pılimorphism2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="standarUyelik.cs" />
+    <Compile Include="tipler.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formozelders.resx">
+      <DependentUpon>formozelders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="polimorphism.resx">
+      <DependentUpon>polimorphism.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +117,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="pılimorphism2.resx">
+      <DependentUpon>pılimorphism2.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
